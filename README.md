@@ -31,7 +31,7 @@ General App, Merchant App, Web Server  총 3개의 프로젝트 중 Web Server�
 - App과 Rest API 형식으로 통신합니다.
 - FCM을 사용하여 Push Message를 전송합니다.
 
-## 잘못한 점
+## 아쉬운 
 - 코드 안에 설정 정보가 포함되어 있습니다. 보안과 수정에 매우 취약합니다.
 - web server를 개발할 당시 클린 코드를 몰랐습니다. 그 때문에 불필요한 주석, naming, 적절한 파일 분할을 통한 코드 관리가 많이 부족했습니다.
 -  Node JS의 장점인 비동기 방식을 활용하지 못했습니다. 
